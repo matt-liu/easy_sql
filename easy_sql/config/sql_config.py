@@ -313,8 +313,8 @@ class FlinkBackendConfig:
             "--parallelism=1",
             (
                 f"--pyFiles={'file://' + self.config.abs_sql_file_path}"
-                f'{"," + self._resolve_file(config.udf_file_path) if config.udf_file_path else ""}'
-                f'{"," + self._resolve_file(config.func_file_path) if config.func_file_path else ""}'
+                f"{',' + self._resolve_file(config.udf_file_path) if config.udf_file_path else ''}"
+                f"{',' + self._resolve_file(config.func_file_path) if config.func_file_path else ''}"
             ),
         ]
 

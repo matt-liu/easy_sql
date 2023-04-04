@@ -92,7 +92,9 @@ class FuncRunner:
             "get_partition_or_first_partition": partition_funcs.get_partition_or_first_partition,
             "ensure_dwd_partition_exists": partition_funcs.ensure_dwd_partition_exists,
             "ensure_table_partition_exists": partition_funcs.ensure_table_partition_exists,
-            "ensure_table_partition_or_first_partition_exists": partition_funcs.ensure_table_partition_or_first_partition_exists,
+            "ensure_table_partition_or_first_partition_exists": (
+                partition_funcs.ensure_table_partition_or_first_partition_exists
+            ),
             "get_partition_col": partition_funcs.get_partition_col,
             "get_first_partition": partition_funcs.get_first_partition,
             "get_last_partition": partition_funcs.get_last_partition,
@@ -181,7 +183,9 @@ class FuncRunner:
             "get_partition_or_first_partition": partition_funcs.get_partition_or_first_partition,
             "ensure_dwd_partition_exists": partition_funcs.ensure_dwd_partition_exists,
             "ensure_table_partition_exists": partition_funcs.ensure_table_partition_exists,
-            "ensure_table_partition_or_first_partition_exists": partition_funcs.ensure_table_partition_or_first_partition_exists,
+            "ensure_table_partition_or_first_partition_exists": (
+                partition_funcs.ensure_table_partition_or_first_partition_exists
+            ),
             "get_partition_col": partition_funcs.get_partition_col,
             "get_first_partition": partition_funcs.get_first_partition,
             "get_last_partition": partition_funcs.get_last_partition,
